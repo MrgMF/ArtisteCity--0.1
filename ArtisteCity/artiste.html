@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Artiste - Nom de l'artiste</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="#accueil">Accueil</a>
+        <a href="#artistes">Artistes</a>
+      </nav>
+    </header>
+    <main>
+      <section id="artiste">
+        <h2>Nom de l'artiste</h2>
+        <img src="images/artiste.jpg" alt="Image de l'artiste">
+        <p>Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae. Sed dui lorem, adipiscing in adipiscing et, interdum nec metus. Mauris ultricies, justo eu convallis placerat, felis enim ornare nisi, vitae mattis nulla ante id dui.</p>
+        <h3>Galerie d'artiste</h3>
+        <div id="galerie">
+          <img src="images/oeuvre1.jpg" alt="Oeuvre 1">
+          <img src="images/oeuvre2.jpg" alt="Oeuvre 2">
+          <img src="images/oeuvre3.jpg" alt="Oeuvre 3">
+        </div>
+        <h3>Albums de l'artiste</h3>
+        <ul>
+          <li>Album 1</li>
+          <li>Album 2</li>
+          <li>Album 3</li>
+        </ul>
+        <h3>Réseaux sociaux</h3>
+        <div id="reseaux-sociaux">
+          <a href="#">
+            <i class="fab fa-facebook-square"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-twitter-square"></i>
+          </a>
+          <a href="#">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+        <h3>Contactez l'artiste</h3>
+        <form>
+          <label for="nom">Nom :</label>
+          <input type="text" id="nom" name="nom"><br>
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="message">Message :</label>
+          <textarea id="message" name="message"></textarea><br>
+          <input type="submit" value="Envoyer">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; ArtisteCity</p>
+    </footer>
+  </body>
+</html>
