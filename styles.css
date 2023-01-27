@@ -10,10 +10,10 @@ body {
 header {
   background-color: #ff5733;
   color: white;
-  padding: 20px;
+  padding: 15px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   width: 100%;
   position: fixed;
   z-index: 1;
@@ -21,11 +21,13 @@ header {
 
 header h1 {
   font-size: 2em;
-  margin: 0;
+  margin: 1px;
+
 }
 
 header nav {
   display: flex;
+  margin-left: 20px; /* Ajoute un espace de 10px à gauche de l'élément nav */
 }
 
 header nav a {
@@ -43,7 +45,7 @@ header nav a:hover {
 /* Main styles */
 main {
   padding: 20px;
-  margin-top: 80px;
+  margin-top: 0px;
   min-height: calc(100vh - 80px);
 }
 
@@ -57,4 +59,49 @@ main {
   margin-top: 50px;
   background-color: #fff;
   border-radius: 10px;
+}
+
+.feed-item img {
+  width: 300px;
+  height: auto;
+}
+
+.feed-item audio {
+  float: right;
+}
+
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 0;
+}
+.conteneur {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.ligne {
+  display: flex;
+}
+.colonne-4 {
+  flex: 1;
+}
+.ligne {
+  display: flex;
+}
+.liens-sociaux {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.liens-sociaux li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+.copyright {
+  text-align: center;
+  padding: 1rem 0;
 }

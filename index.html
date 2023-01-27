@@ -1,49 +1,122 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Réseau d'artistes</title>
+  <title>ArtisteCity</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
   <script src="script.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet'>
+  <link rel="icon" href="" sizes="96x96" type="image/png">
+
 </head>
 <body>
   <header>
-    <h1>Réseau d'artistes</h1>
+    <h1>ArtisteCity</h1>
     <nav>
-      <a href="#accueil">Accueil</a>
-      <a href="#artistes">Artistes</a>
+      <a href="artiste.html">Artistes</a>
     </nav>
   </header>
   <main>
     <section id="accueil">
-      <h2>Bienvenue sur le Réseau d'artistes</h2>
-      <p>Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.</p>
+      <h2>Bienvenue sur ArtisteCity</h2>
+      <p>Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+        Découvrez et soutenez de nouveaux artistes, connectez-vous avec d'autres passionnés d'art et partagez votre propre art.
+
+      </p>
     </section>
+
     <section id="artistes">
+
       <h3>Artistes à la une</h3>
       <div id="feed">
         <div class="feed-item">
-          <img src="artist1.jpg" alt="Artiste 1">
+          <img src="Images/artiste1.jpg" alt="Artiste 1">
           <h3>Artiste 1</h3>
           <p>Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          <button id="aime-artist1">Aime</button>
+          <i class="fas fa-heart"></i>
           <button id="abonne-artist1">S'abonner</button>
+          <audio controls>
+            <source src="Audio/Népal_Rien_de_Spécial.mp3" type="audio/mpeg">
+          </audio>
+          
         </div>
         <div class="feed-item">
-          <img src="artist2.jpg" alt="Artiste 2">
+          <img src="Images/artist2.jpg" alt="Artiste 2">
           <h3>Artiste 2</h3>
           <p>Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <button id="aime-artist2">Aime</button>
           <button id="abonne-artist2">S'abonner</button>
+          <audio controls>
+            <source src="Audio/vache.mp3" type="audio/mpeg">
+          </audio>
         </div>
         <div class="feed-item">
-          <img src="artist3.jpg" alt="Artiste 3">
+          <img src="Images/artiste3.jpg" alt="Artiste 3">
           <h3>Artiste 3</h3>
           <p>Bio: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           <button id="aime-artist3">Aime</button>
           <button id="abonne-artist3">S'abonner</button>
+          <audio controls>
+            <source src="Audio/fiak.mp3" type="audio/mpeg">
+          </audio>
         </div>
       </div>
     </section>
+
+  </section>
+
+  <form action="upload.php" method="post" enctype="multipart/form-data">
+    <input type="file" name="fileToUpload">
+    <input type="submit" value="Upload File">
+  </form>
+
+
+
+
+
+    <footer>
+      <div class="conteneur">
+        <div class="ligne">
+          <div class="colonne-4">
+            <h3>A propos d'Artistecity</h3>
+            <p>Artistecity est une plateforme pour les artistes pour présenter leur travail et se connecter avec leurs fans.</p>
+          </div>
+          <div class="colonne-4">
+            <h3>Navigation</h3>
+            <ul>
+              <li><a href="#">Accueil</a></li>
+              <li><a href="#artistes">Artistes à la une</a></li>
+              <li><a href="#contact">Nous contacter</a></li>
+            </ul>
+          </div>
+          <div class="colonne-4">
+            <h3>Suivez-nous</h3>
+            <ul class="liens-sociaux">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright ©2022 Artistecity. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/57e2208035.js" crossorigin="anonymous"></script>
     </body>
-    
+</html>

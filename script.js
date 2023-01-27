@@ -1,15 +1,5 @@
 // Like button functionality
-let likeButtons = document.querySelectorAll("[id^='like-']");
-likeButtons.forEach(button => {
-  button.addEventListener("click", () => {
-    button.innerHTML = "Liked!";
-  });
-});
+    button.innerHTML = `<i class="fas fa-heart"></i>`;
 
 // Subscribe button functionality
-let subscribeButtons = document.querySelectorAll("[id^='subscribe-']");
-subscribeButtons.forEach(button => {
-  button.addEventListener("click", () => {
     button.innerHTML = "Subscribed!";
-  });
-});
